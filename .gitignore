@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local datasets, checkpoints, and training output
+data/
+IEMOCAP/
+runs/
+*.pkl
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Local settings and credentials
+.env
+.env.*
+.DS_Store
